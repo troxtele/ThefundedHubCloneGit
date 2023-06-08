@@ -132,7 +132,7 @@ export default function Dashboard() {
     setTimeout(() => {
       el.target.parentNode.classList.remove("copied");
     }, 450);
-    console.log(typeof text)
+    console.log(typeof text);
     navigator.clipboard.writeText(text);
   };
 

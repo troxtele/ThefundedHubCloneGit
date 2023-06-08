@@ -38,12 +38,12 @@ export default function Navbar() {
                   </a>
                 </li>
                 <li>
-                  <a
-                    href="#"
+                  <Link
+                    to="/contact"
                     className="flex font-semibold border-b border-transparent hover:border-white transition-all duration-300"
                   >
                     Contact
-                  </a>
+                  </Link>
                 </li>
                 <li>
                   <Link
@@ -108,7 +108,7 @@ export default function Navbar() {
         </svg>
 
         {/* Bg dark */}
-        <div 
+        <div
           onClick={() => setnavToggle(false)}
           className={`darkbg absolute inset-0 bg-main-bg/20 bottom-0  backdrop-blur-xl z-[77] transition-all duration-500 ${
             navToggle ? "opacity-100 visible" : "opacity-0 invisible"
@@ -142,17 +142,17 @@ export default function Navbar() {
                 </a>
               </li>
               <li className="">
-                <a
-                  href="#"
+                <Link
+                  to="/contact"
                   className="flex py-3 pl-6 w-full font-semibold border-b border-light/50 transition-all duration-300"
                 >
                   Contact
-                </a>
+                </Link>
               </li>
 
               <li className="flex mt-4 pl-6">
                 <Link
-                 to="/login"
+                  to="/login"
                   className="flex justify-center items-center font-semibold text-main-bg bg-primary rounded-lg w-32 h-8 -leading-2"
                 >
                   Login

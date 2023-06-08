@@ -9,6 +9,9 @@ import google from "../assets/images/google.png";
 import facebook from "../assets/images/facebook.png";
 import apple from "../assets/images/apple.png";
 import copy from "../assets/images/copy.svg";
+import applePlay from "../assets/images/apple-pay.png";
+import googlePay from "../assets/images/google-pay.png";
+import btcPay from "../assets/images/btc-pay.png";
 
 export {
   mainLogo,
@@ -22,4 +25,7 @@ export {
   facebook,
   apple,
   copy,
+  applePlay,
+  googlePay,
+  btcPay,
 };

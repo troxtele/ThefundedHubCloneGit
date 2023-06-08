@@ -16,7 +16,7 @@ export default function Footer() {
               />
             </div>
           </div>
-          <div className="right grid  gap-4 w-full ml-6 mr-20">
+          <div className="right grid  gap-4 w-full ml-6 mr-20 max-w-[72rem] 2xl:m-auto">
             <div className="top-content flex justify-between gap-10">
               <div className="item flex gap-1">
                 <div className="tfh">

@@ -1,6 +1,6 @@
 import Navbar from "../components/Navbar";
 import Footer from "../components/Footer";
-import { arrow, tringle } from "../ui/images";
+import { apple, arrow, facebook, google, tringle } from "../ui/images";
 import { Link, useLocation } from "react-router-dom";
 import { useEffect } from "react";
 
@@ -183,6 +183,36 @@ export default function Registration() {
                 <button className="py-2 px-16 border-[4px] border-all hover:border-all/50 transition-all duration-300 rounded-lg">
                   Register
                 </button>
+              </div>
+
+              {/* signin */}
+              <div className="signup grid gap-4">
+                <div className="heading flex justify-center items-center">
+                  <h5>Or sign up with:</h5>
+                </div>
+                <div className="logos flex justify-center items-center gap-3">
+                  <a href="#" className="logo">
+                    <img
+                      className="w-10 sm:w-[2.8rem] md:w-[3.2rem]"
+                      src={google}
+                      alt="google"
+                    />
+                  </a>
+                  <a href="#" className="logo">
+                    <img
+                      className="w-10 sm:w-[2.8rem] md:w-[3.2rem]"
+                      src={facebook}
+                      alt="facebook"
+                    />
+                  </a>
+                  <a href="#" className="logo">
+                    <img
+                      className="w-10 sm:w-[2.8rem] md:w-[3.2rem]"
+                      src={apple}
+                      alt="apple"
+                    />
+                  </a>
+                </div>
               </div>
               {/* already have an account */}
               <div className="signup grid gap-4">
